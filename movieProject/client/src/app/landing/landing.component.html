@@ -1,0 +1,27 @@
+<body class="myBody">
+    <div class="myDiv">
+        <h1 class="myH1">Movie Magic Mahal</h1>
+        <div class="myPic">
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div *ngIf="message">
+            <p class="myMsg">{{message}}</p> 
+        </div>
+        <table class="myTable">
+            <tr>
+                <td>
+                    <button type="button" (click)="register()" class="btn btn-dark">Register</button>
+                </td>
+                <td>&nbsp;</td>    
+                <td>
+                    <button type="button" (click)="login()" class="btn btn-dark">Login</button>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <hr>
+        </div>
+    </div>
+    </body>    

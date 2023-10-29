@@ -1,0 +1,66 @@
+<body class="myCenter2">
+    <div>
+        <h1 class="myCent2">Movie Magic Mahal</h1>
+        <hr>
+        <h3 style="text-align: center;">Add a New Movie</h3>
+        <table class="myTable2">
+            <tr>
+                <td>Movie Name</td>
+                <td><input type="text"
+                    value={{movieName}} 
+                    [(ngModel)]="movieName"/>
+                </td>
+            </tr>    
+            <tr>
+                <td>Actor Name #1</td>
+                <td>
+                    <input type="text" 
+                            value={{actorNames[0]}} 
+                            [(ngModel)]="actorNames[0]"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Actor Name #2</td>
+                <td>
+                    <input type="text" 
+                            value={{actorNames[1]}} 
+                            [(ngModel)]="actorNames[1]"/>
+                </td>
+            </tr>    
+            <tr>
+                <td>Actor Name #3</td>
+                <td>
+                    <input type="text" 
+                            value={{actorNames[2]}} 
+                            [(ngModel)]="actorNames[2]"/>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <hr>
+        </div>
+        <table class="myTable3">  
+            <tr>
+                <td class="myTd">
+                    <button class="btn btn-dark btn-lg btn-block" (click)="add()">Add </button>
+                </td> 
+                <td class="myTd">
+                    <p>&nbsp;</p>
+                </td>
+                <td class="myTd">
+                    <button class="btn btn-dark btn-lg btn-block" (click)="list()">List</button>
+                </td> 
+                <td class="myTd">
+                    <p>&nbsp;</p>
+                </td>
+                <td class="myTd">
+                    <button class="btn btn-primary btn-lg btn-block" (click)="home()">Home</button>
+                </td> 
+            </tr>       
+        </table>
+    </div>   
+    <div>
+        <p>&nbsp;</p>
+    </div> 
+</body>
+

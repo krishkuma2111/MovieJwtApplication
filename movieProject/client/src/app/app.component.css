@@ -1,0 +1,54 @@
+.myCenter
+{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: lavender;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+}
+
+.myCent
+{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+}
+
+.myTh
+{
+    column-span: 3;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size:large;
+    color: blue;
+}
+
+.myTr
+{
+    column-span: 3;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size:large;
+    color: blue;
+}
+
+.myTable
+{
+    margin-left:auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    
+    font-family: 'Lucida Sans Unicode';
+    font-size: medium;
+}
+
+td, th
+{
+    border: 1px solid;
+}
+
+.myTd
+{
+    border: none;
+}

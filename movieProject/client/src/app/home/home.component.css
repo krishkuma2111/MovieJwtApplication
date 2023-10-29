@@ -1,0 +1,46 @@
+.myTable 
+{
+    font-family: Helvetica;
+    border-collapse: collapse;
+    width:auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.myH1
+{
+    text-align: center;
+    font-family: Helvetica;
+    font: size 30px;
+    color:rgb(20, 16, 17);
+}
+
+.myPara
+{
+    text-align: center;
+    font-family: Helvetica;
+    font: size 30px;
+    color:rgb(20, 16, 17);
+}
+
+.myPic
+{
+    background: url('../../assets/avengers.jpg') no-repeat;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width:700px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+  }
+.myBody
+{
+    margin-left:auto;
+    margin-right: auto;
+    background-color:lightgray;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+}
+

@@ -1,0 +1,77 @@
+.myCenter
+{
+    margin: auto;
+    background-color: lavender;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+}
+
+.myH1
+{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+}
+
+.myCent
+{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size:50px;
+}
+
+.myTh
+{
+    column-span: 3;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size:large;
+    color: rgb(20, 16, 17);
+}
+
+.myTr
+{
+    column-span: 3;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size:large;
+    color: rgb(20, 16, 17) ;
+}
+
+.myTable
+{
+    margin-left:auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 50px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: medium;
+}
+
+.myTable3
+{
+    margin-left:auto;
+    margin-right: auto;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans Unicode';
+    font-size: medium;
+}
+
+td, th
+{
+    border: 1px solid;
+}
+
+.myTd
+{
+    border: none;
+}

@@ -1,0 +1,10 @@
+{
+“/movies”: {
+“target”: “http://localhost:8081",
+“secure”: false
+}
+}
+
+"ng serve — proxy-config proxy.conf.json"
+
+

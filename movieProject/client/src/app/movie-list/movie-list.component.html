@@ -1,0 +1,72 @@
+<body class="myCenter">
+    <div>
+        <h1 class="myCent">Movie Magic Mahal</h1>
+        <hr>
+
+        <div *ngIf="hasMovies; else myElse">
+            <h3 style="text-align: center;">Movie Details</h3>
+            <table class="myTable">
+                <tr>
+                    <th>Movie Id</th>
+                    <th>Movie Name</th>
+                    <th>Actor Name</th>
+                    <th>Modify</th>
+                    <th>Remove</th>
+                </tr>    
+                <tr *ngFor="let movie of movies">
+                    <td>{{movie.id}}</td>
+                    <td>{{movie.name}}</td>
+                    <td>
+                        <tr *ngFor="let actor of movie.actors">
+                            <td class="myTd">{{actor.name}}</td>
+                        </tr>
+                    </td> 
+                    <td class="myButton">
+                        <button type="button" class="btn btn-primary"
+                        (click)="update(movie.id)">Update</button>
+                    </td>                  
+                    <td class="myButton">
+                        <button type="button" class="btn btn-primary"
+                        (click)="delete(movie.id)">Delete</button>
+                    </td>                  
+ 
+                </tr>
+            </table>
+        </div>
+        <div>
+            <ng-template #myElse>
+            <h3 class="myH1">There are no records to display</h3>            
+            </ng-template>
+        </div>    
+    </div>    
+    <div>
+        <hr>
+    </div>
+    <div>
+        <p>&nbsp;</p>
+    </div>
+
+    <div class="myCenter">
+        <table class="myTable3">
+            <tr>
+                <td class="myTd">
+                    <button class ="btn btn-secondary btn-lg btn-block" (click)="home()">Home</button>    
+                </td>
+                <td class="myTd">
+                    <p>&nbsp;</p>    
+                </td>
+
+                <td class="myTd">
+                    <button class ="btn btn-secondary btn-lg btn-block" (click)="add()">Add a New Movie</button>    
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div>
+   </div>
+</body>
+

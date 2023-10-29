@@ -1,0 +1,79 @@
+<body class="myCenter2">
+    <div>
+        <h1 class="myCent2">Movie Magic Mela</h1>
+        <hr>
+        <h3 style="text-align: center;">Movie Details</h3>
+        <table class="myTable2">
+            <tr>
+                <th>Movie Id</th>
+                <th>Movie Name</th>
+                <th>Actor Name</th>
+            </tr>    
+            <tr>
+                <td>{{movie.id}}</td>
+                <td class="myTd2">
+                    <input type="text" 
+                        value={{movieName}} 
+                        [(ngModel)]="movieName"/>
+                </td>
+                <td>
+                    <input type="text" 
+                            value={{actorNames[0]}} 
+                            [(ngModel)]="actorNames[0]"/>                
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <input type="text" 
+                        value={{actorNames[1]}} 
+                        [(ngModel)]="actorNames[1]"/>
+                </td>
+            </tr>            
+            <tr>
+                <td>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <p>&nbsp;</p>
+                </td>
+                <td>
+                    <input type="text" 
+                        value={{actorNames[2]}} 
+                        [(ngModel)]="actorNames[2]"/>
+                </td>
+            </tr>            
+        </table>
+        <div>
+            <hr>
+        </div>
+        <table class="myTable3">  
+            <tr>
+                <td class="myTd">
+                    <button class="btn btn-primary btn-lg btn-block" (click)="update()">Update</button>
+                </td> 
+                <td class="myTd">
+                    <p>&nbsp;</p>
+                </td>
+                <td class="myTd">
+                    <button class="btn btn-dark btn-lg btn-block" (click)="list()">List</button>
+                </td> 
+                <td class="myTd">
+                    <p>&nbsp;</p>
+                </td>
+                <td class="myTd">
+                    <button class="btn btn-primary btn-lg btn-block" (click)="home()">Home</button>
+                </td> 
+            </tr>       
+        </table>
+    </div>   
+    <div>
+        <p>&nbsp;</p>
+    </div> 
+</body>
+
